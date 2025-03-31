@@ -49,3 +49,9 @@ The CSS styling includes advanced hover effects, animated scaling, and a modern 
 Conclusion:
 
 This Personal Portfolio Website effectively showcases a developer’s profile in a professional manner. It meets the internship task requirements by being a single-page responsive portfolio built using only HTML and CSS.
+
+Output image
+
+![Image](https://github.com/user-attachments/assets/e84f47ff-8dfc-4651-ad67-fe6386a37a84)
+
+![Image](https://github.com/user-attachments/assets/58f729be-c73f-4298-8d97-d4be875edd95)
