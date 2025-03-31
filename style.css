@@ -1,0 +1,164 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #087dfa, #2a60af);
+    color: white;
+    padding: 20px 0;
+}
+
+header h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background: #ff6b6b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #f00a0a;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.projects-grid {
+    display: flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+}
+
+.project {
+    width: 50%;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    background: #e0e0e0;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+/* Fancy Border for Sections */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+    border: 5px solid transparent;
+}
+
+/* Gradient Border Effect */
+section::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(135deg, #4a90e2, #ff6b6b);
+    z-index: -1;
+    border-radius: 15px;
+}
+
+/* Fancy Inner Border Effect */
+section::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: white;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+/* Hover Effect on Sections */
+section:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
